@@ -1,0 +1,108 @@
+#banner{
+    background-image: linear-gradient(to right,purple,rgb(197, 183, 197));
+}   
+ul li a{
+    color: white;
+} 
+body{
+    margin: 0px;
+    padding: 0px;
+
+}
+  .info{
+    padding-left: 100px;
+    padding-top: 100px;
+    color:white;    
+  }
+
+  .data7::before{
+    content: '';
+    display: block;
+    width: 130px;
+    height: 3px;
+    background-color: purple;
+    margin-left: auto;
+    margin-right: auto;
+    transform: translatey(35px);
+      }
+      .data7::after{
+        content: '';
+    display: block;
+    width: 50px;
+    height: 10px;
+    background-color: purple;
+    margin-left: auto;
+    margin-right: auto;
+    transform: translateY(7px);
+      }
+
+  .data1{
+    border: 1px solid black;
+    background-color: purple;
+    border-radius: 20px;
+    text-align: center;
+    padding: 5px;
+    font-size: 1rem;
+    color: white;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 20px;
+    padding-right:20px;
+    margin-left: 430px;
+  }
+
+  .title::before{
+    content: '';
+    display: block;
+    width: 130px;
+    height: 3px;
+    background-color: purple;
+    margin-left: auto;
+    margin-right: auto;
+    transform: translatey(40px);
+      }
+      .title::after{
+        content: '';
+    display: block;
+    width: 50px;
+    height: 10px;
+    background-color: purple;
+    margin-left: auto;
+    margin-right: auto;
+    transform: translateY(5px);
+      }
+      #banner2{
+        background-color: antiquewhite;
+        padding: 60px;
+      }
+      .data4{
+        margin-left: 47px;
+        color: white;
+        margin-top: 20px;
+      }
+      .data5{
+        margin-left: 20px;
+        color: white;
+        font-size: 0.9rem;
+      }
+      .data3::before{
+        content: '';
+        display: block;
+        width: 130px;
+        height: 3px;
+        background-color: purple;
+        margin-left: auto;
+        margin-right: auto;
+        transform: translatey(35px);
+          }
+          .data3::after{
+            content: '';
+        display: block;
+        width: 50px;
+        height: 10px;
+        background-color: purple;
+        margin-left: auto;
+        margin-right: auto;
+        transform: translateY(-1px);
+          }
+    
